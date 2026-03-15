@@ -1,0 +1,46 @@
+# Julia artifacts and compiled files
+*.jl.cov
+*.jl.mem
+*.ji
+*.o
+*.so
+*.dylib
+
+# Julia package manager — don't commit Manifest for a library
+Manifest.toml
+/deps/deps.jl
+
+# Generated output and figure files
+*.pdf
+*.png
+*.svg
+*.eps
+*.gif
+
+# Data / results files
+*.csv
+*.dat
+*.h5
+*.jld
+*.jld2
+*.bson
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*~
+
+# Julia REPL history
+.julia_history
+
+# Documenter.jl build output
+docs/build/
+docs/site/
+
+# Benchmark results
+benchmark/results/
