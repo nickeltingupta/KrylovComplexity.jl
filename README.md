@@ -131,7 +131,7 @@ H = build_SpinXY4_bitwise_efficient(
 
 The Hamiltonian is
 
-$$H = \sqrt{\frac{3}{4N^3}} \sum_{i \lt j \lt k \t l} J_{ijkl}\ i^{H_F}\ \mathcal{O}_i \mathcal{O}_j \mathcal{O}_k \mathcal{O}_l$$
+$$H = \sqrt{\frac{3}{4N^3}} \sum_{i \lt j \lt k \lt l} J_{ijkl}\ i^{H_F}\ \mathcal{O}_i \mathcal{O}_j \mathcal{O}_k \mathcal{O}_l$$
 
 where odd-labelled sites carry σˣ and even-labelled sites carry σʸ. The phase factor i^{H_F} (H_F counts adjacent XY pairs) ensures Hermiticity.
 
