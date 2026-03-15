@@ -5,7 +5,7 @@
 
 A Julia package for computing **Krylov complexity** (also called spread complexity) in disordered quantum spin systems. Starting from a Hamiltonian and an initial state, the package runs the Lanczos algorithm, builds the Krylov basis, and evaluates the time-dependent complexity
 
-$$C_K(t) = \sum_n n\,|c_n(t)|^2.$$
+$$C_K(t) = \sum_n n\ |c_n(t)|^2.$$
 
 Included out of the box:
 - A disordered **SpinXY4 Hamiltonian** (4-body σˣ/σʸ interactions with Gaussian random couplings, related to the SYK family of models)
@@ -35,7 +35,7 @@ Included out of the box:
 
 Krylov complexity quantifies quantum operator or state growth under time evolution. Given an initial state |ψ₀⟩ and a Hamiltonian H, the Lanczos algorithm constructs an orthonormal **Krylov basis** {|Kₙ⟩} such that H is tridiagonal with diagonal entries αₙ and off-diagonal entries βₙ. The time-evolved state decomposes as
 
-$$|\psi(t)\rangle = \sum_n c_n(t)\,|K_n\rangle,$$
+$$|\psi(t)\rangle = \sum_n c_n(t)\ |K_n\rangle,$$
 
 and the Krylov complexity measures how far the state has spread along the chain. In chaotic systems governed by random matrix statistics the Lanczos coefficients βₙ grow linearly, driving linear growth in C_K(t), while integrable systems show slower, bounded growth.
 
@@ -189,7 +189,7 @@ The computed r value appears in the histogram legend. Reference values: GUE → 
 
 Constructs the Thermofield Double state
 
-$$|\text{TFD}(\beta)\rangle = \frac{1}{\sqrt{Z(\beta)}} \sum_n e^{-\beta E_n/2}\,|n\rangle, \qquad Z(\beta)=\sum_n e^{-\beta E_n}$$
+$$|\text{TFD}(\beta)\rangle = \frac{1}{\sqrt{Z(\beta)}} \sum_n e^{-\beta E_n/2}\ |n\rangle, \qquad Z(\beta)=\sum_n e^{-\beta E_n}$$
 
 At β=0 this reduces to the equal-weight infinite-temperature state.
 
