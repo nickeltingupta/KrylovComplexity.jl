@@ -131,7 +131,7 @@ H = build_SpinXY4_bitwise_efficient(
 
 The Hamiltonian is
 
-$$H = \sqrt{\frac{3}{4N^3}} \sum_{i<j<k<l} J_{ijkl}\, i^{H_F}\, \mathcal{O}_i \mathcal{O}_j \mathcal{O}_k \mathcal{O}_l$$
+$$H = \sqrt{\frac{3}{4N^3}} \sum_{i \lt j \lt k \t l} J_{ijkl}\ i^{H_F}\ \mathcal{O}_i \mathcal{O}_j \mathcal{O}_k \mathcal{O}_l$$
 
 where odd-labelled sites carry σˣ and even-labelled sites carry σʸ. The phase factor i^{H_F} (H_F counts adjacent XY pairs) ensures Hermiticity.
 
@@ -189,7 +189,7 @@ The computed r value appears in the histogram legend. Reference values: GUE → 
 
 Constructs the Thermofield Double state
 
-$$|\text{TFD}(\beta)\rangle = \frac{1}{\sqrt{Z(\beta)}} \sum_n e^{-\beta E_n/2}\ |n\rangle, \qquad Z(\beta)=\sum_n e^{-\beta E_n}$$
+$$|\text{TFD}(\beta)\rangle = \frac{1}{\sqrt{Z(\beta)}}\ \sum_n e^{-\beta E_n/2}\ |n\rangle, \qquad Z(\beta)=\sum_n e^{-\beta E_n}$$
 
 At β=0 this reduces to the equal-weight infinite-temperature state.
 
