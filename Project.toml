@@ -24,6 +24,7 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ZChop = "8603256b-76ad-53fe-b511-38a38e6437cd"
 
 [compat]
+julia = "1.10"
 Combinatorics = "1.0.3"
 DataFrames = "1.5.0"
 Distributions = "0.25.120"
