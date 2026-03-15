@@ -1,6 +1,6 @@
 # API Reference
 
-All public functions exported by `KrylovComplexity`.
+Docstrings will be added here once functions are annotated.
 
 ## Hamiltonian Construction
 

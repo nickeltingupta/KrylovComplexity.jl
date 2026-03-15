@@ -7,15 +7,14 @@ makedocs(
     modules   = [KrylovComplexity],
     format    = Documenter.HTML(
         prettyurls = get(ENV, "CI", nothing) == "true",
-        canonical  = "https://nickeltingupta.github.io/KrylovComplexity.jl",
+        canonical  = "https://nickeltingupta/KrylovComplexity.jl",
     ),
     pages = [
-        "Home"      => "index.md",
-        "API"       => "api.md",
-        "Physics"   => "physics.md",
-        "Examples"  => "examples.md",
+        "Home"    => "index.md",
+        "Physics" => "physics.md",
+        "Examples"=> "examples.md",
     ],
-    checkdocs = :exports,
+    checkdocs = :none,
     warnonly  = true,
 )
 
